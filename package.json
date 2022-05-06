@@ -1,0 +1,18 @@
+{
+  "name": "nodejshashing_userlogin",
+  "version": "1.0.0",
+  "description": "Password login and its hashing",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Yajnesh A P",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
